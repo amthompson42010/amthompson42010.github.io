@@ -1,12 +1,218 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tuskegee University — 3D Campus Viewer</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexander Thompson · Solutions Architect</title>
+  <meta name="description" content="Alexander Thompson — Chief Data Officer and Solutions Architect in Mobile, Alabama. Full-stack, Azure cloud and data engineering.">
+  <meta name="theme-color" content="#0a161d">
+  <link rel="canonical" href="https://amthompson42010.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alexander Thompson">
+  <meta property="og:description" content="Alexander Thompson — Chief Data Officer and Solutions Architect in Mobile, Alabama. Full-stack, Azure cloud and data engineering.">
+  <meta property="og:url" content="https://amthompson42010.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <canvas id="bathy" aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <p class="prompt"><b>~/mobile-al</b> $ whoami<span class="cursor"></span></p>
+    <h1>Alexander Thompson</h1>
+    <p class="role">Chief Data Officer &amp; Solutions Architect</p>
+    <p class="lede">Full-stack developer and cloud architect with 10+ years building web applications, APIs and data systems. I spent eight years as lead developer on U.S. Army Corps of Engineers projects, and now design Azure and AI solutions for higher education.</p>
+    <div class="meta">
+      <span>Mobile, Alabama</span>
+      <span>30.69°N 88.04°W</span>
+      <span>English · Spanish</span>
+      <span>Open to new roles</span>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn" href="https://www.linkedin.com/in/amthompson42010/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn" href="https://github.com/amthompson42010" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="now">
+    <div class="wrap">
+      <div class="sec-head"><h2>Currently</h2><span class="sec-note">Feb 2025 – present</span></div>
+      <div class="now">
+        <div class="now-card">
+          <h3>Chief Data Officer, Solutions Architect</h3>
+          <div class="co">Dystopia</div>
+          <ul class="ticks">
+            <li>Building an LLM-powered chatbot with Azure AI Foundry to answer inquiries at Tuskegee University.</li>
+            <li>Working with Ellucian to pull student data through API connections for scholarship matching and an enrollment dashboard.</li>
+            <li>Designing and implementing server-side applications and APIs.</li>
+            <li>Deploying, managing and optimizing solutions on Microsoft Azure.</li>
+            <li>Automating CI/CD pipelines, infrastructure as code, monitoring and reliability.</li>
+            <li>Running project lifecycles, requirements gathering and stakeholder coordination.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="stack">
+            <h4>Languages</h4>
+            <div class="chips"><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Python</span><span class="chip">Go</span><span class="chip">C#</span><span class="chip">C / C++</span><span class="chip">Java</span><span class="chip">SQL</span></div>
+          </div>
+          <div class="stack">
+            <h4>Frameworks</h4>
+            <div class="chips"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Node.js</span><span class="chip">.NET / ASP.NET MVC</span><span class="chip">AngularJS</span><span class="chip">Entity Framework</span></div>
+          </div>
+          <div class="stack">
+            <h4>Cloud &amp; data</h4>
+            <div class="chips"><span class="chip">Azure</span><span class="chip">Azure AD</span><span class="chip">Azure AI Foundry</span><span class="chip">Databricks</span><span class="chip">Elasticsearch</span><span class="chip">Oracle</span><span class="chip">REST APIs</span><span class="chip">CI/CD</span></div>
+          </div>
+          <div class="stack">
+            <h4>Machine learning</h4>
+            <div class="chips"><span class="chip">TensorFlow</span><span class="chip">Keras</span><span class="chip">scikit-learn</span><span class="chip">pandas</span><span class="chip">NumPy</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-head"><h2>Experience</h2><span class="sec-note">most recent first</span></div>
+      <ol class="timeline">
+        <li class="job">
+          <div class="when"><strong>2016 – 2025</strong>8 yrs 5 mos</div>
+          <div>
+            <h3>Software Developer III</h3>
+            <div class="org">UICGS / Bowhead Family of Companies · Mobile, AL</div>
+            <p>Full-time developer on Bowhead's contract with the U.S. Army Corps of Engineers (USACE), leading several of its field-operations systems.</p>
+            <div class="projects">
+              <div class="proj"><b>ODESS · Lead developer</b><span>Operations and Dredging Endangered Species System. Live tracking of endangered-species incidents during dredging to reduce environmental impact. Also chief graphics designer, moving the site to responsive Material Design.</span></div>
+              <div class="proj"><b>Shoreline Management (SLM) · Lead developer</b><span>Built with React, Azure, Node.js, C# .NET and SQL.</span></div>
+              <div class="proj"><b>JALBTCX · Lead developer</b><span>Joint Airborne Lidar Bathymetry Technical Center of Expertise.</span></div>
+              <div class="proj"><b>DQM Viewer · Developer</b><span>Live tracking of dredging activity for USACE's Dredging Quality Management program.</span></div>
+              <div class="proj"><b>Sand grain-size ML · Databricks</b><span>Machine learning environment to estimate sand grain sizes using TensorFlow, Keras, scikit-learn, pandas and NumPy.</span></div>
+            </div>
+            <p>Also built an Azure AD authentication system for React apps, deployed Elasticsearch to the cloud, wrote a new API from scratch in Node, TypeScript and Oracle, maintained a C# API, and worked with GIS teams on accurate spatial coordinates.</p>
+          </div>
+        </li>
+        <li class="job">
+          <div class="when"><strong>2014 – 2018</strong>3 yrs 5 mos</div>
+          <div>
+            <h3>Owner &amp; Lead Programmer</h3>
+            <div class="org">Game Age Creation, LLC · Tuscaloosa, AL</div>
+            <p>Founded a game studio building a console game in Unreal Engine 4 for PlayStation 4 and Steam, with character design in Blender and art in Adobe tools.</p>
+            <div class="tech"><em>C++</em> · Unreal Engine 4 · Blender</div>
+          </div>
+        </li>
+        <li class="job">
+          <div class="when"><strong>2014 – 2016</strong>2 yrs 4 mos</div>
+          <div>
+            <h3>Student C# Developer</h3>
+            <div class="org">Center for Advanced Public Safety · University of Alabama</div>
+            <p>Developed RESTful web applications for government agencies.</p>
+            <div class="tech"><em>C#</em> · ASP.NET MVC · Web API · Entity Framework</div>
+          </div>
+        </li>
+        <li class="job">
+          <div class="when"><strong>2013 – 2021</strong>7 yrs 10 mos</div>
+          <div>
+            <h3>Website Designer</h3>
+            <div class="org">Tuscaloosa County Medical Society</div>
+            <p>Designed and maintained the society's website at <a href="https://tcmsdocs.org" target="_blank" rel="noopener">tcmsdocs.org</a>.</p>
+            <div class="tech"><em>HTML</em> · CSS · JavaScript · jQuery</div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="code">
+    <div class="wrap">
+      <div class="sec-head"><h2>On GitHub</h2><span class="sec-note">pinned repositories</span></div>
+      <div class="repos">
+        <a class="repo" href="https://github.com/amthompson42010/Red-Black-Tree-in-C" target="_blank" rel="noopener">
+          <span class="name">Red-Black-Tree-in-C</span>
+          <span class="desc">Red-black tree (self-balancing binary search tree) implementation.</span>
+          <span class="lang"><i class="dot" style="background:#8fa3b0"></i>C</span>
+        </a>
+        <a class="repo" href="https://github.com/amthompson42010/Data-Structures-Library-LL" target="_blank" rel="noopener">
+          <span class="name">Data-Structures-Library-LL</span>
+          <span class="desc">Data structures library built on linked lists.</span>
+          <span class="lang"><i class="dot" style="background:#8fa3b0"></i>C</span>
+        </a>
+        <a class="repo" href="https://github.com/amthompson42010/Data-Structures-Library-A" target="_blank" rel="noopener">
+          <span class="name">Data-Structures-Library-A</span>
+          <span class="desc">Data structures library built on arrays.</span>
+          <span class="lang"><i class="dot" style="background:#8fa3b0"></i>C</span>
+        </a>
+        <a class="repo" href="https://github.com/amthompson42010/Heapsort-Algorithm" target="_blank" rel="noopener">
+          <span class="name">Heapsort-Algorithm</span>
+          <span class="desc">Heapsort algorithm implementation.</span>
+          <span class="lang"><i class="dot" style="background:#8fa3b0"></i>C</span>
+        </a>
+        <a class="repo" href="https://github.com/amthompson42010/Kruskal-Algorithm" target="_blank" rel="noopener">
+          <span class="name">Kruskal-Algorithm</span>
+          <span class="desc">Minimum spanning tree using Kruskal's algorithm.</span>
+          <span class="lang"><i class="dot" style="background:#e0a04a"></i>Java</span>
+        </a>
+        <a class="repo" href="https://github.com/amthompson42010/Python-Files" target="_blank" rel="noopener">
+          <span class="name">Python-Files</span>
+          <span class="desc">A collection of Python projects.</span>
+          <span class="lang"><i class="dot" style="background:#5b8fc7"></i>Python</span>
+        </a>
+      </div>
+      <p class="more"><a href="https://github.com/amthompson42010?tab=repositories" target="_blank" rel="noopener">See all 53 repositories ↗</a></p>
+    </div>
+  </section>
+
+  <section id="credentials">
+    <div class="wrap">
+      <div class="sec-head"><h2>Education &amp; certifications</h2></div>
+      <div class="creds">
+        <div>
+          <h3>Education</h3>
+          <ul><li><b>The University of Alabama</b><span>B.A., Criminology</span></li></ul>
+        </div>
+        <div>
+          <h3>Certifications</h3>
+          <ul>
+            <li><b>Microsoft Certified: Azure Fundamentals</b></li>
+            <li><b>Go <span class="level">basic</span></b></li>
+            <li><b>SQL <span class="level">basic</span></b></li>
+            <li><b>Java <span class="level">intermediate</span></b></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            <li><b>English</b><span>Native</span></li>
+            <li><b>Spanish</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Hiring for a full-stack, cloud or data role?</h2>
+      <p>I'm open to new opportunities. Email me, or reach out on LinkedIn.</p>
+      <div class="email-row">
+        <span class="email" id="email">amthompson42010@gmail.com</span>
+        <button class="btn primary" id="copy" type="button">Copy email</button>
+        <a class="btn" href="https://www.linkedin.com/in/amthompson42010/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <div id="copy-status" role="status"></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Alexander Thompson · Mobile, Alabama</div></footer>
+
+<script src="assets/main.js"></script>
+</body>
 </html>
